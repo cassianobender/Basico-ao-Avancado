@@ -37,6 +37,12 @@ texto.innerHTML =
 <p>Arredondamento para cima: ${Math.ceil(num)} </p>
 <p>Arredondamento para baixo: ${Math.floor(num)} </p>
 <p>Com duas casas decimais: ${Number(num.toFixed(2))} </p>`
+
+Valores Primitivos e Valores por Referência:
+
+Valores primitivos: string, number, boolean, undefined, null - Valores são copiados (=)
+Valores por Referência: array, object, function - Valores são atribuídos ao mesmo local de memória (=)
+
 */
 
 const pessoa1 = {
